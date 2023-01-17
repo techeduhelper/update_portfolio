@@ -21,12 +21,17 @@ header{
     display: flex;
     justify-content: space-between;
     list-style: none;
+    font-weight: bold;
     padding-top:10px ;
 }
 .navbar li{
     justify-content: space-between;
     padding: 0px 15px;
 } 
+.navbar li:hover{
+    background-color: cornflowerblue;
+    color: black;
+}
 header a{
     text-decoration: none;
     color: white;
@@ -37,7 +42,7 @@ header a{
     font-weight: bold ;
     text-transform: uppercase;
 }
-span{
+.logospan{
     color: red;
     text-transform: uppercase;
 }
@@ -67,6 +72,9 @@ ul a{
 }
 .name{
     font-size: 2.5rem;
+}
+.full{
+    color: yellow;
 }
 .hi{
     font-size: 1.2rem;
@@ -194,13 +202,14 @@ ul a{
 }
 .html-bar{
     display: flex;
+    float: right;
     justify-content: space-around;
     padding: 10px;
     flex-direction: column;
 }
 .lightbar{
     width: 40%;
-    background: navajowhite;
+    background:white;
     height: 0.5rem;
     margin-top: 20;
     position: absolute;
@@ -214,4 +223,72 @@ ul a{
     height: 100vh;
     background-color: #0f0c27;
 
+}
+.Projects{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    background-color: #0f0c27;
+    color: white;
+    height: 100vh;
+}
+.myprojects{
+    color: greenyellow;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.imgprojects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    justify-content: space-between;
+    padding: 50px 10% ;
+}
+.imgprojects img{
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+    padding: 8px;
+    cursor: pointer;
+    
+}
+.contact{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    background-color: #0f0c27;
+    color: white;
+    height: 100vh;
+}
+.contactform{
+    padding: 50px 10% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #0f0c27;
+}
+.footerdiv{
+    padding: 40px 10% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.span{
+    margin-left: 400px;
+    color: red;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
 }

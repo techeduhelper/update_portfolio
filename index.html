@@ -15,16 +15,16 @@
   <body>
     <!--Navbar-->
     <header>
-      <a href="#" class="logo"><span class="span">Maniruddin </span>Khan</a>
+      <a href="#" class="logo"><span class="logospan">Maniruddin </span>Khan</a>
 
       <ul class="navbar">
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Skills</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="">Expertise</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Contact</a></li>
-        <li><div class="bx bx-moon"></div></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><div class="bx bx-moon" ></div></li>
       </ul>
     </header>
     <!--Home-->
@@ -54,7 +54,7 @@
           similique nemo nostrum magnam mollitia? Ipsam dignissimos ipsum
           consectetur est nam cum!
         </p>
-        <a href="">Contact me</a>
+        <a href="#contact">Contact me</a>
       </div>
       <div class="profile-image">
         <img
@@ -65,7 +65,7 @@
     </section>
     <hr />
     <!--About-->
-    <section class="about">
+    <section class="about" id="about">
       <h1>About Me</h1>
       <span class="intro">introduction</span>
       <div class="aboutdiv">
@@ -73,7 +73,7 @@
           <img
             src="https://media-exp1.licdn.com/dms/image/C4E03AQHWH43QWDSPfg/profile-displayphoto-shrink_800_800/0/1598022542238?e=2147483647&v=beta&t=Qh-CVxbLnNV-bU4FkocbGWk13JoWVbvIH-l2KPI3dY4"
             alt="profile image"
-          />
+          />````
         </div>
         <div class="text">
           <p align="justify">
@@ -85,7 +85,7 @@
             et mollitia illo fugiat. Dolore, a.
           </p>
           <div class="namecard">
-            <h3><i class="bx bxl-github"></i> Maniruddin Khan</h3>
+            <h3><i class="bx bx-group"></i> Maniruddin Khan</h3>
             <h3><i class="bx bx-mobile"></i> +91 8617559654</h3>
             <h3><i class="bx bxs-envelope"></i> uccmaniruddinkhan@gmail.com</h3>
           </div>
@@ -95,34 +95,34 @@
     </section>
     <hr />
     <!--Skills-->
-    <section class="skills">
+    <section class="skills" id="skills">
       <h1>Skills</h1>
       <span class="myskills">My Skills</span>
       <div class="skillsdiv">
         <div class="skill_bar">
           <div class="html-bar">
-            <div class="htmlspace"><h3>HTML <span> 95% </span></h3></div>
+            <div class="htmlspace"><h3>HTML <span class="span"> 95% </span></h3></div>
             <div class="ldbar">
               <div class="lightbar"></div>
               <div class="darkbar" style="position:absolute; width: 38%; height: 0.5rem; background: yellow;"></div>
             </div>
           </div>
           <div class="html-bar">
-            <div class="htmlspace"><h3>CSS <span> 85% </span></h3></div>
+            <div class="htmlspace"><h3>CSS <span class="span"> 85% </span></h3></div>
             <div class="ldbar">
               <div class="lightbar"></div>
               <div class="darkbar" style="position:absolute; width: 35%; height: 0.5rem; background: yellow;"></div>
             </div>
           </div>
           <div class="html-bar">
-            <div class="htmlspace"><h3>JavaScript <span> 70% </span></h3></div>
+            <div class="htmlspace"><h3>JavaScript <span class="span"> 70% </span></h3></div>
             <div class="ldbar">
               <div class="lightbar"></div>
               <div class="darkbar" style="position:absolute; width: 30%; height: 0.5rem; background: yellow;" ></div>
             </div>
           </div>
           <div class="html-bar">
-            <div class="htmlspace"><h3>React <span> 80% </span></h3></div>
+            <div class="htmlspace"><h3>React <span class="span"> 80% </span></h3></div>
             <div class="ldbar">
               <div class="lightbar"></div>
               <div class="darkbar" style="position:absolute; width: 35%; height: 0.5rem; background: yellow;"></div>
@@ -135,8 +135,46 @@
       </div>
     </section>
     <hr>
-    <section class="expertise">
-      <h2>Maniruddin Khan</h2>
+    <section class="Projects" id="Projects">
+      <h1>Projects</h1>
+      <span class="myprojects">My Projects</span>
+      <div class="imgprojects">
+        <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/fullstack_php_js.jpg" alt="">
+        <img src="https://res.cloudinary.com/dmsxwwfb5/image/upload/v1595866967/full-stack-devlopment-min.png" alt="">
+        <img src="https://cdn.ucberkeleybootcamp.com/wp-content/uploads/sites/106/2020/07/CDG_blog_post_image_08.jpg" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2weRgRqfL1YVm9Di5XbVTFIVe73uSFFzG4g&usqp=CAU" alt="">
+        <img src="https://www.opencodez.com/wp-content/uploads/2019/10/Full-Stack-Developer.jpeg" alt="">
+        <img src="https://asapkerala.gov.in/wp-content/uploads/2022/02/net.jpg" alt="">
+      </div>
     </section>
+    <hr>
+    <section class="contact" id="contact">
+      <h1>Contact</h1>
+      <div class="contactform">
+          <form action="send.php" method="post">
+            <input type="text" placeholder="Name" required style="width: 400px; height: 30px; border-radius: 10px; text-decoration: none; border: none; outline: none; font-weight: bold; padding-left: 5px;" id="name" name="name">
+            <br><br>
+            <input type="gmail" placeholder="Email" required style="width: 400px; height: 30px; border-radius: 10px; text-decoration: none ; border: none; outline: none; font-weight: bold; padding-left: 5px;" id="gmail" name="gmail">
+            <br><br>
+            <textarea name="message" id="message" cols="60" rows="10" placeholder="Enter your message" style="padding-left: 5px; border-radius: 15px; text-decoration: none; outline: none;"></textarea>
+            <br><br>
+            <input class="submit" style="width: 400px; height: 40px; border-radius: 15px; text-decoration: none; background-color: green; border: none; outline: none; color: white; font-weight: bold;" type="submit" value="Submit">
+          </form>
+      </div>
+    </section>
+    <hr>
+    <section class="footer">
+      <div class="footerdiv">
+        <span style="color: white; text-transform: capitalize;">Copyright@ 2022 by UniqueMk</span>
+      </div>
+    </section>
+    <hr>
+    <script src="send.php"></script>
+    <script>
+       function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+   }
+    </script>
   </body>
 </html>
