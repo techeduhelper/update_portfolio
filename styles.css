@@ -4,7 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;  
+    font-family: 'Poppins', sans-serif; 
 }
 header{
     width: 100%;
@@ -54,6 +54,7 @@ ul a{
     height: 100vh;
     display: flex;
     padding: 150px 10%;
+    width: 100%;
 }
 .social{
     height: 100px;
@@ -124,6 +125,7 @@ ul a{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .about h1{
     color: white;
@@ -177,6 +179,7 @@ ul a{
     padding-top: 50px;
     background-color: #0f0c27;
     height: 100vh;
+    width: 100%;
 
 }
 .skills h1{
@@ -232,6 +235,7 @@ ul a{
     background-color: #0f0c27;
     color: white;
     height: 100vh;
+    width: 100%;
 }
 .myprojects{
     color: greenyellow;
@@ -262,6 +266,7 @@ ul a{
     background-color: #0f0c27;
     color: white;
     height: 100vh;
+    width: 100%;
 }
 .contactform{
     padding: 50px 10% ;
